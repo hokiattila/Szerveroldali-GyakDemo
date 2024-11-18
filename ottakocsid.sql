@@ -87,7 +87,7 @@ BEGIN
     VALUES 
         ('home', 'Főoldal', '111', 10),
         ('contact', 'Kapcsolat', '111', 20),
-        ('admin', 'Admin', '001', 30),
-        ('logout', 'Kilépés', '001', 50);
+        ('admin', 'Admin', '__1', 30),
+        ('logout', 'Kilépés', '__1', 50);
 END
 GO

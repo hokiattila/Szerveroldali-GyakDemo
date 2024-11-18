@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\hokia\\Desktop\\Szerveroldali-GyakDemo\\CarSalesAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F29663D-1301-486F-8C8A-9946D4E324F7}|CarSalesAPI.csproj|C:\\Users\\hokia\\Desktop\\Szerveroldali-GyakDemo\\CarSalesAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{8F29663D-1301-486F-8C8A-9946D4E324F7}|CarSalesAPI.csproj|c:\\users\\hokia\\desktop\\szerveroldali-gyakdemo\\carsalesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8F29663D-1301-486F-8C8A-9946D4E324F7}|CarSalesAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F29663D-1301-486F-8C8A-9946D4E324F7}|CarSalesAPI.csproj|c:\\users\\hokia\\desktop\\szerveroldali-gyakdemo\\carsalesapi\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F29663D-1301-486F-8C8A-9946D4E324F7}|CarSalesAPI.csproj|C:\\Users\\hokia\\Desktop\\Szerveroldali-GyakDemo\\CarSalesAPI\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F29663D-1301-486F-8C8A-9946D4E324F7}|CarSalesAPI.csproj|solutionrelative:apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{8F29663D-1301-486F-8C8A-9946D4E324F7}|CarSalesAPI.csproj|solutionrelative:Models\\CarSalesContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F29663D-1301-486F-8C8A-9946D4E324F7}|CarSalesAPI.csproj|c:\\users\\hokia\\desktop\\szerveroldali-gyakdemo\\carsalesapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F29663D-1301-486F-8C8A-9946D4E324F7}|CarSalesAPI.csproj|C:\\Users\\hokia\\Desktop\\Szerveroldali-GyakDemo\\CarSalesAPI\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F29663D-1301-486F-8C8A-9946D4E324F7}|CarSalesAPI.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -71,8 +71,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAkwBsAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:39:02.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T13:39:02.54Z"
             },
             {
               "$type": "Document",
@@ -84,8 +83,7 @@
               "RelativeToolTip": "ApiKeyMiddleware.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T15:26:59.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T15:26:59.817Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:47:27.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T13:47:27.01Z"
             },
             {
               "$type": "Document",
@@ -122,8 +119,7 @@
               "RelativeToolTip": "Controllers\\PagesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAiwBYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:46:54.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T13:46:54.609Z"
             },
             {
               "$type": "Document",
@@ -147,8 +143,7 @@
               "RelativeToolTip": "Models\\CarSalesContext.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAuwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:36:59.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T13:36:59.328Z"
             },
             {
               "$type": "Document",
