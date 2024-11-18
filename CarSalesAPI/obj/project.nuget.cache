@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Os6pJz0rOzY/UG2UZ066d81rRfph4wIH6+WbVZAw3fN5qiHQ5wUeV/utc0QBiD82Y+DaN+MYMSWv3kOsqGoc1w==",
+  "dgSpecHash": "WcaD/Qgt83VoOmvyGYBnRKxpYQTY9lcGRGVx1UrbgUcy3YzVL0Xk1tVjIFyHYZUWJPvL+KLvlRUKUyTaYiYVNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hokia\\Desktop\\CarSalesAPI\\CarSalesAPI.csproj",
+  "projectFilePath": "C:\\Users\\hokia\\Desktop\\Szerveroldali-GyakDemo\\CarSalesAPI\\CarSalesAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hokia\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\hokia\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
