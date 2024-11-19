@@ -17,12 +17,11 @@ class Admin_Controller {
         if($_SERVER["REQUEST_METHOD"] == "GET") {
             if($_SESSION['userlevel'] != '__1' && $_SESSION['username'] == "unknown") {
                 $view = new View_Loader("login_main");
-                $view->assign('token', Token::generateToken());
             } else {
                 $view = new View_Loader('advert_main');
-                $view->assign('token', Token::generateToken());
             }
-        } else if($_SERVER['REQUEST_METHOD'] == "POST") {
+            $view->assign('token', Token::generateToken());
+        } else if($_SERVER['REQUEST_METHOD'] == "POST" && key_exists("login-btn",$vars)) {
             $token = $vars['token'];
             $username_input = $vars['username'];
             $password_input = $vars['password'];
@@ -43,6 +42,17 @@ class Admin_Controller {
                     Raise_Error::raiseError($this,"Hibás felhasználónév vagy jelszó");
                 }
             }
+        } else if($_SERVER['REQUEST_METHOD'] == "POST" && key_exists("change-btn",$vars)) {
+                $current = $vars['current_psw'];
+                $new = $vars['new_psw'];
+                $new_conf = $vars['new_psw_conf'];
+                $res = $this->model->fetchUserData("admin");
+                if(!empty($res)  && password_verify($current, $res['hashedPsw']) && $new == $new_conf) {
+                    $this->model->changePassword("admin", $new);
+                    header("Location: /ottakocsid/logout");
+                } else {
+                    $_SESSION['error'] = "Jelszóhiba!";
+                    $view = new View_Loader('advert_main');                }
         }
     }
 

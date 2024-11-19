@@ -25,6 +25,7 @@
 <br><br>
     <!-- Autó hozzáadása -->
     <form class="form-container" action="/ottakocsid/advert" method="post" enctype="multipart/form-data">
+        <h2>Új hirdetés</h2>
         <div class="form-left">
             <div class="centeredupload">
                 <label class="form-label" for="image" >Kép(ek) kiválasztása:</label>
@@ -92,8 +93,37 @@
     </form>
 </div>
 <br><br><br>
+<div class="form-container" style="margin-bottom: 20px">
+    <h2>Jelszóváltoztatás</h2>
+    <form action="/ottakocsid/admin" method="post">
+        <input type="password" name="current_psw" placeholder="Jelenlegi jelszó" required><br>
+        <input type="password" name="new_psw" placeholder="Új jelszó" required><br>
+        <input type="password" name="new_psw_conf" placeholder="Új jelszó megerősítő" required><br>
+        <input type="submit" value="Jelszóváltoztatás" name="change-btn">
+    </form>
+    <br><br><br>
+    <br><br><br><br>
+</div>
+<?php if(isset($_SESSION['error'])): ?>
+    <div id="error" style="display:none;" data-message="<?= $_SESSION['error'] ?>"></div>
+<?php endif; ?>
+
 <?php if(isset($viewData['error'])): ?>
     <div id="error-message" style="display:none;" data-message="<?= htmlspecialchars($viewData['error']); ?>"></div>
+<?php endif; ?>
+
+<?php if(isset($_SESSION['error'])): ?>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var errorMessageDiv = document.getElementById('error');
+        var message = errorMessageDiv.getAttribute('data-message');
+        if (message) {
+            toastr.options.positionClass ="toast-top-left";
+            toastr.error(message);
+        }
+        <?php unset($_SESSION['error']) ?>
+    });
+</script>
 <?php endif; ?>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
